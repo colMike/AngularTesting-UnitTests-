@@ -2,7 +2,7 @@ import { TodoFormComponent } from './todo-form.component';
 import {FormBuilder} from "@angular/forms";
 
 describe('TodoFormComponent', () => {
-  var component: TodoFormComponent;
+  let component: TodoFormComponent;
 
   beforeEach(() => {
     component = new TodoFormComponent(new FormBuilder());
