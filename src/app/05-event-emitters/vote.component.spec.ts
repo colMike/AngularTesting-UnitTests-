@@ -1,4 +1,4 @@
-import { VoteComponent } from './vote.component';
+import {VoteComponent} from './vote.component';
 
 describe('VoteComponent(event emitter)', () => {
   let component: VoteComponent;
@@ -10,7 +10,7 @@ describe('VoteComponent(event emitter)', () => {
   it('should raise vote change event after upvoting', () => {
     let totalVotes: any = null;
 
-    component.voteChanged.subscribe(tv =>{
+    component.voteChanged.subscribe(tv => {
       totalVotes = tv;
     });
 
